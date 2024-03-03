@@ -1,0 +1,99 @@
+/* Add styles specific to the my-melody dynamic page */
+
+body {
+    background: linear-gradient(to bottom right, #ffff6f, #f226b8);
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+nav {
+    background: #f226b8;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffff6f;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #f226b8;
+    color: #fff;
+}
+
+.melody-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.melody-panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+    flex: 1;
+    margin: 10px;
+    position: relative;
+    transition: all 700ms ease-in;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.info-section {
+    margin: 20px;
+}
+
+.melody-table {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #fff;
+}
+
+th {
+    background-color: #f226b8;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    color: #ffff6f;
+}
+
+.melody-test {
+    margin: 20px;
+}
+
+.bows-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bow {
+    font-size: 24px;
+    margin: 0 10px;
+    opacity: 0;
+}
+
+/* Add additional styles as needed */

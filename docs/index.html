@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html id="index" lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+		<link rel="icon" href="images/icons/favicon.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			  crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			  crossorigin="anonymous" referrerpolicy="no-referrer"/>
+		<link rel="stylesheet" href="styles/nav.css">
+		<link rel="stylesheet" href="index.css">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+				integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+				crossorigin="anonymous"
+				defer></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
+		<script src="index.js" defer></script>
+		<script src="scripts/nav.js" defer></script>
+		<title>Sanrio Home</title>
+	</head>
+	<body>
+		<div class="welcome">
+			<h1>Welcome to the Sanrio World</h1>
+		</div>
+		<nav class="navbar bg-body-tertiary sticky-top">
+			<div class="container-fluid">
+				<a href="#">Home</a>
+				<a href="html/about.html">Our Sanrio Family</a>
+				<a href="html/contact.html">Contact Us</a>
+				<div class="search">
+					<label class="search-label">
+						<input type="text" class="input" placeholder="Search...">
+					</label>
+					<button class="btn">
+						<i class="fas fa-search"></i>
+					</button>
+				</div>
+			</div>
+		</nav>
+		<div class="container-top">
+			<a id="hello-kitty" class="panel active" href="html/characters/hello_kitty.html"></a>
+			<a id="kuromi" class="panel" href="html/characters/kuromi.html"></a>
+			<a id="my-melody" class="panel" href="html/characters/my_melody.html"></a>
+			<a id="pompompurin" class="panel" href="html/characters/pompompurin.html"></a>
+			<a id="aggretsuko" class="panel" href="html/characters/aggretsuko.html"></a>
+		</div>
+		<div class="container-middle">
+			<h2>Our playlist <3</h2>
+			<iframe id="youtubePlayer" width="560" height="315"
+					src="https://www.youtube.com/embed/N4dkDCdH1kw?si=wgIriqUD8lC3-Zv2" title="YouTube video player"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen></iframe>
+		</div>
+		<div class="container-bottom">
+			<h2>Tentative Bottom Container</h2>
+			<p>This will be the bottom container of the web page.</p>
+		</div>
+	</body>
+</html>
