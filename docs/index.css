@@ -20,6 +20,12 @@ body {
         border: none;
     }
 
+    a {
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+    }
+
     #hello-kitty {
         background-image: url('images/characters/hello_kitty.jpg');
     }
@@ -105,12 +111,12 @@ body {
         h3 {
             font-size: 24px;
             position: absolute;
-            bottom: 20px;
             left: 20px;
             margin: 0;
             color: #fff;
             opacity: 0;
             transition: opacity 0.3s ease-in;
+            font-family: 'Madimi One', sans-serif;
         }
     }
 
