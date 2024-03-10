@@ -22,7 +22,6 @@ body {
 
     a {
         font-size: 16px;
-        color: #fff;
         text-align: center;
     }
 
@@ -44,6 +43,12 @@ body {
 
     #aggretsuko {
         background-image: url('images/characters/aggretsuko.jpg');
+    }
+
+    .container-top {
+        a {
+            color: #b784cb;
+        }
     }
 
     .welcome {
