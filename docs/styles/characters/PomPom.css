@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+body {
+    background: linear-gradient(to bottom right, #fffad1, #ffeca1); /* A more vivid pastel yellow gradient */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #5c3c1f; /* Deep brown for text */
+}
+
+nav {
+    background: #ffeca1; /* A brighter pastel yellow */
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #5c3c1f; /* Deep brown for link text */
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #ffeca1; /* A brighter pastel yellow for hover */
+    color: #5c3c1f; /* Deep brown for contrast on hover */
+}
+
+.melody-container {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Madimi One', sans-serif;
+    color: #5c3c1f; /* Deep brown for headings */
+}
+
+.melody-panel {
+    height: 300px;
+    flex: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info-section {
+    flex: 1;
+}
+
+.melody-table {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #5c3c1f; /* Deep brown for table borders */
+}
+
+th {
+    background-color: #ffeca1; /* A brighter pastel yellow for table headers */
+    color: #5c3c1f; /* Deep brown for header text */
+}
+
+h1, h2, h3 {
+    color: #5c3c1f; /* Deep brown for titles */
+}
+
+.melody-test {
+    margin: 20px;
+}
+
+.bows-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bow {
+    font-size: 24px;
+    margin: 0 10px;
+    opacity: 0;
+}
+.wrapper {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Add additional styles as needed */
