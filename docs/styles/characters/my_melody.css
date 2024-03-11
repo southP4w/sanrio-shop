@@ -1,7 +1,7 @@
 /* Add styles specific to the my-melody dynamic page */
-
+@import url(https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
 body {
-    background: linear-gradient(to bottom right, #ffff6f, #f226b8);
+    background: linear-gradient(to bottom right, rgba(246, 32, 153, 0.98), #d5bb83);
     margin: 0;
     font-family: 'Arial', sans-serif;
     color: #fff;
@@ -18,7 +18,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #ffff6f;
+    color: #da6889;
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
@@ -33,25 +33,20 @@ nav a:hover {
 .melody-container {
     text-align: center;
     padding: 20px;
+    font-family: 'Madimi One', sans-serif;
+    color: #ffff6f;
 }
 
 .melody-panel {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 300px;
-    border-radius: 15px;
-    cursor: pointer;
     flex: 1;
-    margin: 10px;
-    position: relative;
-    transition: all 700ms ease-in;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    Background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .info-section {
-    margin: 20px;
+    flex: 1;
 }
 
 .melody-table {
@@ -94,6 +89,13 @@ h1, h2, h3 {
     font-size: 24px;
     margin: 0 10px;
     opacity: 0;
+}
+.wrapper {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 /* Add additional styles as needed */

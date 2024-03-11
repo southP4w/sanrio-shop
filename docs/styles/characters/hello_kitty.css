@@ -1,5 +1,6 @@
+@import url(https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
 body {
-    background: linear-gradient(to bottom right, #facfe3, #ef4494);
+    background: linear-gradient(to bottom right, #ef4494, #facfe3);
     margin: 0;
     font-family: 'Arial', sans-serif;
     color: #fff;
@@ -16,7 +17,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #facfe3;
+    color: #da6889;
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
@@ -31,25 +32,20 @@ nav a:hover {
 .hello_kitty-container {
     text-align: center;
     padding: 20px;
+    font-family: 'Madimi One', sans-serif;
+    color: #f1eadd;
 }
 
 .hello_kitty-panel {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     height: 300px;
-    border-radius: 15px;
-    cursor: pointer;
     flex: 1;
-    margin: 10px;
-    position: relative;
-    transition: all 700ms ease-in;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    Background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .info-section {
-    margin: 20px;
+    flex: 1;
 }
 
 .hello_kitty-table {
@@ -74,7 +70,7 @@ th {
 }
 
 h1, h2, h3 {
-    color: #facfe3;
+    color: #f1eadd;
 }
 
 .hello_kitty-test {
@@ -92,6 +88,13 @@ h1, h2, h3 {
     font-size: 24px;
     margin: 0 10px;
     opacity: 0;
+}
+.wrapper {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 /* Add additional styles as needed */
