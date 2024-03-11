@@ -28,7 +28,7 @@
 		<nav class="navbar bg-body-tertiary sticky-top">
 			<div class="container-fluid">
 				<a href="../index.html">Home</a>
-				<a href="../html/about.html">Our Sanrio Family</a>
+				<a href="about.html">Our Sanrio Family</a>
 				<a href="#">Contact Us</a>
 				<div class="search">
 					<label class="search-label">
@@ -44,12 +44,17 @@
 			<h2>Contact Sanrio</h2>
 			<h3>We'd love to hear your feedback</h3>
 			<p>Fill out the form below and we'll reach out to you within 24 hours</p>
-				<label>
-					<textarea class="contact-message"></textarea>
-				</label>
-				<div>
-					<a class="btn-send" href="mailto:fake@mail.com">SEND</a>
-				</div>
+			<div class="mb-3">
+				<label for="email-field" class="form-label">Email address</label>
+				<input id="email-field" class="form-control" type="email" placeholder="name@example.com">
+			</div>
+			<div class="mb-3">
+				<label for="message-text">Message</label>
+				<textarea id="message-text" class="contact-message"></textarea>
+			</div>
+			<div>
+				<a class="btn-send" href="mailto:fake@mail.com">SEND</a>
+			</div>
 		</div>
 	</body>
 </html>
