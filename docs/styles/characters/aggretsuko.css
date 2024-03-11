@@ -1,7 +1,7 @@
 /* Add styles specific to the aggretsuko dynamic page */
-@import url(https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+
 body {
-    background: linear-gradient(to bottom right, #c40f3c, #fc7995);
+    background: linear-gradient(to bottom right, #e1b7c3, #c41e1e);
     margin: 0;
     font-family: 'Arial', sans-serif;
     color: #fff;
@@ -18,7 +18,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #da6889;
+    color: #e1b7c3;
     font-weight: bold;
     padding: 10px;
     border-radius: 5px;
@@ -33,20 +33,25 @@ nav a:hover {
 .aggretsuko-container {
     text-align: center;
     padding: 20px;
-    font-family: 'Madimi One', sans-serif;
-    color: #e1d7ab;
 }
 
 .aggretsuko-panel {
-    height: 300px;
-    flex: 1;
-    Background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+    flex: 1;
+    margin: 10px;
+    position: relative;
+    transition: all 700ms ease-in;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 .info-section {
-    flex: 1;
+    margin: 20px;
 }
 
 .aggretsuko-table {
@@ -66,12 +71,12 @@ th, td {
 }
 
 th {
-    background-color: #cb2746;
+    background-color: #c41e1e;
     color: #fff;
 }
 
 h1, h2, h3 {
-    color: #e1de94;
+    color: #e1b7c3;
 }
 
 .aggretsuko-test {
@@ -90,11 +95,5 @@ h1, h2, h3 {
     margin: 0 10px;
     opacity: 0;
 }
-.wrapper {
-    display: flex;
-    max-width: 1200px;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-}
+
 /* Add additional styles as needed */
