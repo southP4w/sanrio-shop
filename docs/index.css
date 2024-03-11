@@ -15,7 +15,7 @@ body {
 	}
 
 	iframe {
-		width: 50%;
+		width: 90%;
 		height: 315px;
 		border: none;
 		border-radius: 10px;
@@ -92,7 +92,7 @@ body {
 		cursor: pointer;
 		border: 5px solid #fcbad3;
 		margin: 20px auto;
-		max-width: 50%;
+		max-width: 30%;
 		h2 {
 			font-family: 'Playfair Display', sans-serif;
 		}
