@@ -20,6 +20,11 @@ nav {
         background-color: #ff99ad;
         color: #fff;
     }
+
+    .container-fluid {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .search {

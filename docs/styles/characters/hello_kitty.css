@@ -1,14 +1,13 @@
-/* Add styles specific to the Kuromi dynamic page */
 @import url(https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
 body {
-    background: linear-gradient(to bottom right, #5d0aea, rgb(17, 1, 1));
+    background: linear-gradient(to bottom right, #ef4494, #facfe3);
     margin: 0;
     font-family: 'Arial', sans-serif;
     color: #fff;
 }
 
 nav {
-    background: #c41e1e;
+    background: #ef4494;
     padding: 15px;
     display: flex;
     justify-content: space-around;
@@ -26,19 +25,18 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #755a94;
+    background-color: #ef4494;
     color: #fff;
 }
 
-.kuromi-container {
+.hello_kitty-container {
     text-align: center;
     padding: 20px;
     font-family: 'Madimi One', sans-serif;
-    color: #d8eaef;
-
+    color: #f1eadd;
 }
 
-.kuromi-panel {
+.hello_kitty-panel {
     height: 300px;
     flex: 1;
     Background-size: contain;
@@ -50,7 +48,7 @@ nav a:hover {
     flex: 1;
 }
 
-.kuromi-table {
+.hello_kitty-table {
     margin: 20px;
 }
 
@@ -67,15 +65,15 @@ th, td {
 }
 
 th {
-    background-color: #8c39ff;
+    background-color: #ef4494;
     color: #fff;
 }
 
 h1, h2, h3 {
-    color: #d8eaef;
+    color: #f1eadd;
 }
 
-.kuromi-quiz {
+.hello_kitty-test {
     margin: 20px;
 }
 
