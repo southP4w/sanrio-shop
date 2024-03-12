@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
 body {
-    background: linear-gradient(to bottom right, #fffad1, #ffeca1); /* A more vivid pastel yellow gradient */
+    background: linear-gradient(to bottom right, #ffec77, #e1e0db);
     margin: 0;
     font-family: 'Arial', sans-serif;
     color: #5c3c1f; /* Deep brown for text */
@@ -29,14 +29,14 @@ nav a:hover {
     color: #5c3c1f; /* Deep brown for contrast on hover */
 }
 
-.melody-container {
+.PomPom-container {
     text-align: center;
     padding: 20px;
     font-family: 'Madimi One', sans-serif;
     color: #5c3c1f; /* Deep brown for headings */
 }
 
-.melody-panel {
+.PomPom-panel {
     height: 300px;
     flex: 1;
     background-size: contain;
@@ -48,7 +48,7 @@ nav a:hover {
     flex: 1;
 }
 
-.melody-table {
+.PomPom-table {
     margin: 20px;
 }
 
@@ -73,7 +73,7 @@ h1, h2, h3 {
     color: #5c3c1f; /* Deep brown for titles */
 }
 
-.melody-test {
+.PomPom-test {
     margin: 20px;
 }
 

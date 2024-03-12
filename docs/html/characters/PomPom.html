@@ -8,9 +8,11 @@
           crossorigin="anonymous">
     <link rel="icon" href="../../images/icons/favicon.png">
     <link rel="stylesheet" href="../../styles/nav.css">
-    <link rel="stylesheet" href="../../styles/characters/PomPom.css"/>
+    <link rel="stylesheet" href="../../styles/characters/PomPom.css">
+    <link rel="stylesheet" href="../../styles/characters/quizzes/PomPom-quiz.css">
     <script src="../../scripts/character_page.js" defer></script>
     <script src="../../scripts/nav.js" defer></script>
+    <script src="../../scripts/quizzes/PomPom.js"></script>
     <title>PomPom's Playhouse</title>
 </head>
 <body>
@@ -29,10 +31,10 @@
         </div>
     </div>
 </nav>
-<div class="melody-container">
-    <h1>PomPomPurins Playhouse</h1>
+<div class="PomPom-container">
+    <h1>PomPomPurins Naphouse</h1>
     <div class="wrapper">
-        <div class="melody-panel" style="background-image: url('../../images/characters/pompompurin.jpg');">
+        <div class="PomPom-panel" style="background-image: url('../../images/characters/pompompurin.jpg');">
         </div>
         <div class="info-section">
             <p>
@@ -64,14 +66,41 @@
             </tr>
         </table>
     </div>
-    <div class="melody-test">
+    <div class="PomPom Test">
         <h2>Mini PomPomPurin Test</h2>
-        <p>Answer the following questions to reveal your based My Melody!</p>
-        <!-- Add your mini my-melody test questions here -->
+        <p>Answer the following questions to reveal your based PomPom Purin!</p>
     </div>
     <div class="bows-container">
-        <!-- Bows animation will be added using JavaScript -->
+
     </div>
 </div>
+<div class="pompompurin-quizcontainer" id="pompompurin">
+    <div class="pompompurin-header">
+        <h2 id="pompompurin-question">Question text</h2>
+        <ul>
+            <li>
+                <input type="radio" name="pompompurin-answer" id="a" class="pompompurin-answer">
+                <label for="a" id="a_text">Question</label>
+            </li>
+
+            <li>
+                <input type="radio" name="pompompurin-answer" id="b" class="pompompurin-answer">
+                <label for="b" id="b_text">Question</label>
+            </li>
+
+            <li>
+                <input type="radio" name="pompompurin-answer" id="c" class="pompompurin-answer">
+                <label for="c" id="c_text">Question</label>
+            </li>
+
+            <li>
+                <input type="radio" name="pompompurin-answer" id="d" class="pompompurin-answer">
+                <label for="d" id="d_text">Question</label>
+            </li>
+        </ul>
+    </div>
+    <button id="pompompurin-submit">Submit</button>
+</div>
+
 </body>
 </html>
