@@ -19,10 +19,46 @@ hr {
 
 }
 
+#kiran {
+	background-image: url('../images/team/kiran-site-img.png');
+}
+
+#daniel {
+	background-image: url('../images/team/riker.gif');
+}
+
+#my-melody {
+	background-image: url('images/characters/my_melody.jpg');
+}
+
+#pompompurin {
+	background-image: url('images/characters/pompompurin.jpg');
+}
+
+#aggretsuko {
+	background-image: url('images/characters/aggretsuko.jpg');
+}
+
 .container {
 	max-width: 800px;
-	margin: 0 auto;
+	gap: 20px;
+	margin: 20px auto;
 	padding: 20px;
+}
+
+.panel {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 300px;
+	border-radius: 15px;
+	cursor: pointer;
+	flex: 1;
+	margin: 10px;
+	position: relative;
+	transition: all 700ms ease-in;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
 header {
