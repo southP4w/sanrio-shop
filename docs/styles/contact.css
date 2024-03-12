@@ -51,6 +51,11 @@ p {
 	line-height: 1.6;
 }
 
+textarea {
+	width: 500px;
+	height: 200px;
+}
+
 .contact {
 	max-width: 600px;
 	margin: auto;
