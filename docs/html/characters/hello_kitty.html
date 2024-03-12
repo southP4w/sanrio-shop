@@ -1,74 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-			  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-			  crossorigin="anonymous">
-		<link rel="icon" href="../../images/icons/favicon.png">
-		<link rel="stylesheet" href="../../styles/nav.css">
-		<link rel="stylesheet" href="../../styles/characters/hello_kitty.css">
-		<script src="../../scripts/character_page.js" defer></script>
-		<script src="../../scripts/nav.js" defer></script>
-		<title>Hello Kitty's World</title>
-	</head>
-	<body>
-		<nav class="navbar bg-body-tertiary sticky-top">
-			<div class="container-fluid">
-				<a href="../../index.html">Home</a>
-				<a href="../../html/about.html">Our Sanrio Family</a>
-				<a href="../../html/contact.html">Contact Us</a>
-				<div class="search">
-					<label class="search-label">
-						<input type="text" class="input" placeholder="Search...">
-					</label>
-					<button class="btn">
-						<i class="fas fa-search"></i>
-					</button>
-				</div>
-			</div>
-		</nav>
-		<div class="hello_kitty-container">
-			<h1>Welcome to Hello Kitty's Happy Universe</h1>
-			<div class="wrapper">
-				<div id="hello-kitty" class="hello_kitty-panel"
-					 style="background-image: url('../../images/characters/hello_kitty.jpg')">
-				</div>
-				<div class="info-section">
-					<p>Hello Kitty was born in the suburbs of London. She lives with her parents and her twin sister
-						Mimmy who is her best friend. As she always says, "you can never have too many friends!"</p>
-				</div>
-			</div>
-			<div class="hello_kitty-table">
-				<h2>Hello Kitty's Favorite Things</h2>
-				<table>
-					<tr>
-						<th>Item</th>
-						<th>Favorite</th>
-					</tr>
-					<tr>
-						<td>Color</td>
-						<td>Red</td>
-					</tr>
-					<tr>
-						<td>Accessory</td>
-						<td>Bows</td>
-					</tr>
-					<tr>
-						<td>Hobby</td>
-						<td>Baking cookies</td>
-					</tr>
-				</table>
-			</div>
-			<div class="hello_kitty-test">
-				<h2>Mini Hello Kitty Test</h2>
-				<p>Answer the following questions to reveal your inner Hello Kitty!</p>
-				<!-- Add your mini Hello Kitty test questions here -->
-			</div>
-			<div class="bows-container">
-				<!-- Bows animation will be added using JavaScript -->
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+		  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+		  crossorigin="anonymous">
+	<link rel="icon" href="../../images/icons/favicon.png">
+	<link rel="stylesheet" href="../../styles/nav.css">
+	<link rel="stylesheet" href="../../styles/characters/hello_kitty.css">
+	<script src="../../scripts/character_page.js" defer></script>
+	<script src="../../scripts/nav.js" defer></script>
+	<script src="../../scripts/quizzes/hello-kitty.js" defer></script>
+	<title>Hello Kitty's World</title>
+</head>
+<body>
+<nav class="navbar bg-body-tertiary sticky-top">
+	<div class="container-fluid">
+		<a href="../../index.html">Home</a>
+		<a href="../../html/about.html">Our Sanrio Family</a>
+		<a href="../../html/contact.html">Contact Us</a>
+		<div class="search">
+			<label class="search-label">
+				<input type="text" class="input" placeholder="Search...">
+			</label>
+			<button class="btn">
+				<i class="fas fa-search"></i>
+			</button>
+		</div>
+	</div>
+</nav>
+<div class="hello_kitty-container">
+	<h1>Welcome to Hello Kitty's Happy Universe</h1>
+	<div class="wrapper">
+		<div id="kitty" class="hello_kitty-panel"
+			 style="background-image: url('../../images/characters/hello_kitty.jpg')">
+		</div>
+		<div class="info-section">
+			<p>Hello Kitty was born in the suburbs of London. She lives with her parents and her twin sister
+				Mimmy who is her best friend. As she always says, "you can never have too many friends!"</p>
+		</div>
+	</div>
+	<div class="hello_kitty-table">
+		<h2>Hello Kitty's Favorite Things</h2>
+		<table>
+			<tr>
+				<th>Item</th>
+				<th>Favorite</th>
+			</tr>
+			<tr>
+				<td>Color</td>
+				<td>Red</td>
+			</tr>
+			<tr>
+				<td>Accessory</td>
+				<td>Bows</td>
+			</tr>
+			<tr>
+				<td>Hobby</td>
+				<td>Baking cookies</td>
+			</tr>
+		</table>
+	</div>
+	<div class="hello_kitty-test">
+		<h2>Mini Hello Kitty Test</h2>
+		<p>Answer the following questions to reveal your inner Hello Kitty!</p>
+		<!-- Add your mini Hello Kitty test questions here -->
+	</div>
+	<div class="bows-container">
+		<!-- Bows animation will be added using JavaScript -->
+	</div>
+<div class="hello-kitty-container" id="hello-kitty">
+	<div class="hello-kitty-header">
+		<h2 id="hello-kitty-question">Question text</h2>
+		<ul>
+			<li>
+				<input type="radio" name="hello-kitty-answer" id="a" class="hello-kitty-answer">
+				<label for="a" id="a_text">Question</label>
+			</li>
+
+			<li>
+				<input type="radio" name="hello-kitty-answer" id="b" class="hello-kitty-answer">
+				<label for="b" id="b_text">Question</label>
+			</li>
+
+			<li>
+				<input type="radio" name="hello-kitty-answer" id="c" class="hello-kitty-answer">
+				<label for="c" id="c_text">Question</label>
+			</li>
+			<li>
+				<input type="radio" name="hello-kitty-answer" id="d" class="hello-kitty-answer">
+				<label for="d" id="d_text">Question</label>
+			</li>
+		</ul>
+	</div>
+	<button id="hello-kitty-submit">Submit</button>
 			</div>
 		</div>
-	</body>
+</body>
 </html>

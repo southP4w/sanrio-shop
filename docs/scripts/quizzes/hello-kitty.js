@@ -33,7 +33,7 @@ const helloKittyData = [
     },
 ];
 
-const helloKittyQuiz = document.getElementById('hello-kitty');
+const helloKittyQuiz = document.getElementById('kitty');
 const helloKittyAnswerEls = document.querySelectorAll('.hello-kitty-answer');
 const helloKittyQuestionEl = document.getElementById('hello-kitty-question');
 const helloKittyAText = document.getElementById('a_text');

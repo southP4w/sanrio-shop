@@ -1,10 +1,107 @@
+@import url(https://fonts.googleapis.com/css2?family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
 body {
-  background: linear-gradient(315deg, #ffd2e2, #ffb6c1); /* Hello Kitty Pastel Gradient */
+  background: linear-gradient(to bottom right, #ef4494, #facfe3);
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
 }
+
+nav {
+  background: #ef4494;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  text-decoration: none;
+  color: #da6889;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #ef4494;
+  color: #fff;
+}
+
+.hello_kitty-container {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Madimi One', sans-serif;
+  color: #f1eadd;
+}
+
+.kitty-panel {
+  height: 300px;
+  flex: 1;
+  Background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info-section {
+  flex: 1;
+}
+
+.hello_kitty-table {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #fff;
+}
+
+th {
+  background-color: #ef4494;
+  color: #fff;
+}
+
+h1, h2, h3 {
+  color: #f1eadd;
+}
+
+.hello_kitty-test {
+  margin: 20px;
+}
+
+.bows-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.bow {
+  font-size: 24px;
+  margin: 0 10px;
+  opacity: 0;
+}
+.wrapper {
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
 
 .hello-kitty-container {
   background-color: #fff;
   border-radius: 10px;
+  display: inline-block;
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
   width: 600px;
   overflow: hidden;
@@ -35,7 +132,7 @@ ul li label {
 }
 
 button {
-  background-color: #ff66a3; /* Hello Kitty Pink */
+  background-color: #f5bb00;
   color: #fff;
   border: none;
   display: block;
@@ -47,10 +144,10 @@ button {
 }
 
 button:hover {
-  background-color: #ff3385; /* Darker Pink on Hover */
+  background-color: #d49700;
 }
 
 button:focus {
   outline: none;
-  background-color: #ff0055; /* Darker Pink on Focus */
+  background-color: #b28300;
 }
