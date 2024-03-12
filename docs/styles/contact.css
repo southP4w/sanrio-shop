@@ -2,7 +2,7 @@
 @import 'bootstrap/scss/_variables.scss';
 
 body {
-	color: #ff4d9e;
+	color: #5e3370;
 	background-color: #ff99ad;
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
@@ -12,14 +12,17 @@ body {
 	text-align: center;
 }
 
-h1 {
-	font-family: 'Madimi One', sans-serif;
+header {
+	background-color: #ff99ad;
+	color: #5e3370;
+	padding: 20px 0;
+	text-align: center;
 }
 
-h2 {
+h1, h2 {
 	font-family: 'Madimi One', serif;
 	margin-top: 0;
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.25rem;
 	line-height: 1.2;
 	font-size: 2.5rem;
 	font-weight: bold;
@@ -45,11 +48,10 @@ a {
 }
 
 p {
-	line-height: 2;
+	line-height: 1.6;
 }
 
 .contact {
-	padding: 100px 0;
 	max-width: 600px;
 	margin: auto;
 
