@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="../../styles/characters/aggretsuko.css"/>
 		<script src="../../scripts/character_page.js" defer></script>
 		<script src="../../scripts/nav.js" defer></script>
+		<script src="../../scripts/quizzes/Aggretsuko.js" defer></script>
 		<title>Aggretsuko's World</title>
 	</head>
 	<body>
@@ -68,11 +69,36 @@
 			<div class="aggretsuko-test">
 				<h2>Mini Aggretsuko Test</h2>
 				<p>Answer the following questions to reveal your True Aggretsuko!</p>
-				<!-- Add your mini aggretsuko test questions here -->
 			</div>
 			<div class="bows-container">
-				<!-- Bows animation will be added using JavaScript -->
+		</div>
+		<div class="aggry-container" id="aggretsuko">
+			<div class="aggretsuko-header">
+				<h2 id="aggretsuko-question">Question text</h2>
+				<ul>
+					<li>
+						<input type="radio" name="aggretsuko-answer" id="a" class="aggretsuko-answer">
+						<label for="a" id="a_text">Question</label>
+					</li>
+
+					<li>
+						<input type="radio" name="aggretsuko-answer" id="b" class="aggretsuko-answer">
+						<label for="b" id="b_text">Question</label>
+					</li>
+
+					<li>
+						<input type="radio" name="aggretsuko-answer" id="c" class="aggretsuko-answer">
+						<label for="c" id="c_text">Question</label>
+					</li>
+
+					<li>
+						<input type="radio" name="aggretsuko-answer" id="d" class="aggretsuko-answer">
+						<label for="d" id="d_text">Question</label>
+					</li>
+				</ul>
 			</div>
+			<button id="aggretsuko-submit">Submit</button>
+		</div>
 		</div>
 	</body>
 </html>
