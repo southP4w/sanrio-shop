@@ -61,16 +61,16 @@ table {
 th, td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #5c3c1f; /* Deep brown for table borders */
+    border-bottom: 1px solid #5c3c1f;
 }
 
 th {
-    background-color: #ffeca1; /* A brighter pastel yellow for table headers */
-    color: #5c3c1f; /* Deep brown for header text */
+    background-color: #ffeca1;
+    color: #5c3c1f;
 }
 
 h1, h2, h3 {
-    color: #5c3c1f; /* Deep brown for titles */
+    color: #5c3c1f;
 }
 
 .PomPom-test {
